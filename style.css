@@ -5,6 +5,11 @@ body {
     line-height: 34px;
     color: #777;
     background: url("../images/cubes.png");
+    height: 100%;
+}
+
+h2, h3 {
+  font-size: 22px;
 }
 
 .contentHeader{
@@ -18,19 +23,48 @@ body {
     border-bottom: 3px solid #ddd;
 }
 
-.centered {
-    margin: 0 auto;
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
 }
 
-.mynav{
-    width:100%;
-    max-width: 960px;
-}
-
-.auth-image {
+.self-image {
     float: left;
-    width: 200px;
+    max-width: 200px;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
-  }
+}
+
+.gallery img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+    padding-top: 20px;
+}
+
+#extraMargin {
+    margin-top:40px;
+}
+  
+.gallery h3 {
+    position: absolute;
+    width:90%;
+    bottom: 20px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
