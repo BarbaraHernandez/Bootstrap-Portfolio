@@ -95,7 +95,7 @@ a {
     width:100px;
 }
 
-/*I'm not sure why this isn't flush to the bottom of the viewport*/
+/*I can't get this to be sticky*/
 footer {
     position: absolute;
     bottom: 0;
@@ -160,3 +160,36 @@ span {
     border: none;
     -webkit-font-smoothing: antialiased;
 }
+
+/*Responsive Formatting*/
+
+/*First break - 980px*/
+@media screen and (max-width:980px){
+    .center {
+        width:100%;
+        max-width: 2000px;
+        margin-left:0px;
+    }
+
+    .customPages {
+        position: relative;
+        margin-right: -100px;
+    }
+
+    /*I can't figure out how to widen this since I set the width with columns*/
+    .customBrand {
+        float: left;
+        line-height: 90px;
+        padding-left:40px;
+        padding-bottom: 100px;
+        margin-bottom: 0px;
+    }
+
+}
+
+/*Second break - 768px*/
+@media screen and (max-width:980px){
+
+}
+
+/*Final break - 640px*/
