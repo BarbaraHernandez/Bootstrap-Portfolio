@@ -10,9 +10,17 @@ body {
     padding:0px;
     background-image: url("images/cubes.png");
     background-size: 1440px 800px;
-    border-radius: 0px;
 }
 
+.center {
+    width:100%;
+    max-width: width 2000px;
+    margin: auto;
+}
+
+.gap {
+    margin-top:50px;
+}
 
 
 .customNav {
@@ -74,6 +82,17 @@ a {
     width:100%;
     max-width: 1000px;
     margin: auto;
+}
+
+/*It's been a long week*/
+.realwomenhavecorners {
+    border-radius: 0px;
+}
+
+#littletealbutton {
+    background-color: #4aaaa5;
+    border: none;
+    width:100px;
 }
 
 /*I'm not sure why this isn't flush to the bottom of the viewport*/
